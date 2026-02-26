@@ -49,7 +49,7 @@ h2 {
   font-family: 'Cormorant Garamond', serif;
   font-size: 36px;
   color: #c6a85b;
-  margin-top: 100px;
+  margin-top: 60px;
   margin-bottom: 20px;
   letter-spacing: 1px;
   text-align: left; 
@@ -85,6 +85,18 @@ blockquote p {
   text-align: center;
 }
 
+#quote {
+  max-width: 700px;       
+  margin: 70px auto;      
+  font-style: italic;
+  color: #c6a85b;
+  text-align: center;
+}
+
+#quote p {
+  font-size: 28px;        
+  line-height: 1.4;
+}
 
 ul {
   margin-top: 20px;
@@ -123,11 +135,3 @@ footer {
 }
 
 
-#quote {
-  padding-left: 0;
-  margin-left: auto;
-  margin-right: auto;
-  font-style: italic;
-  color: #c6a85b;
-  text-align: center;
-}
